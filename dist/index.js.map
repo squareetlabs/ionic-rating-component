@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,cAAc,iCAAiC,CAAC;AAChD,cAAc,qCAAqC,CAAC;AACpD,cAAc,8CAA8C,CAAC","sourcesContent":["export * from './ionic-rating-component.module';\nexport * from './components/ionic-rating-component';\nexport * from './services/ionic-rating-subscription.service';\n"]}
