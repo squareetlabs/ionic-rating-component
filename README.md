@@ -1,12 +1,11 @@
 # Ionic Rating Component
 
-Highly customizable component to display evaluations or a quick rating operation of something.  
+Highly customizable Ionic 5 component to display evaluations or a quick rating operation of something.  
+ 
 
-Easy to integrate with your ionic-5 projects. 
+For Ionic 3 projects please check this package : https://www.npmjs.com/package/ionic3-star-rating
 
-For ionic-3 projects please check this package : https://www.npmjs.com/package/ionic3-star-rating
-
-For ionic-4 projects please check this package : https://www.npmjs.com/package/ionic-rating-component
+For Ionic 4 projects please check this package : https://www.npmjs.com/package/ionic4-star-rating
 # How to use
 
 ## Step 1
