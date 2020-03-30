@@ -15,7 +15,8 @@ export declare class IonicRatingComponent implements ControlValueAccessor, OnIni
     registerOnChange(fn: any): void;
     registerOnTouched(fn: any): void;
     setDisabledState?(isDisabled: boolean): void;
-    rating: number;
+    set rating(val: number);
+    get rating(): number;
     ratingChanged: EventEmitter<number>;
     readonly: string;
     activeColor: string;
