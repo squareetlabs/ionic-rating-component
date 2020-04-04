@@ -1,6 +1,6 @@
 {
   "name": "ionic-rating-component",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Highly customizable Ionic 5 component to display evaluations or a quick rating operation of something.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/squareetlabs/ionic5-rating-component.git"
+    "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
   },
   "keywords": [
     "ionic5 rating",
@@ -37,7 +37,7 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/squareet",
+  "homepage": "https://github.com/squareetlabs/ionic-rating-component",
   "devDependencies": {
     "@angular/common": "^9.1.0",
     "@angular/compiler": "~9.1.0",
