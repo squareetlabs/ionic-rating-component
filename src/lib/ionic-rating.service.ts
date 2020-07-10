@@ -2,9 +2,10 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
-export class IonicRatingSubscriptionService {
+export class IonicRatingService {
+
   private starRatingSubject = new Subject<number>();
   private topicSubject = new Subject<{ [key: string]: any }>();
 
