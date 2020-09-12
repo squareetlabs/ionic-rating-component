@@ -27,6 +27,24 @@ import { IonicRatingService } from './ionic-rating.service';
   ],
 })
 export class IonicRatingComponent implements ControlValueAccessor, OnInit {
+  @Input()
+  public set rating(val: number) {
+    this._rating = val;
+    if (this.onChange) {
+      this.onChange(val);
+    }
+  }
+
+
+  public get rating(): number {
+    return this._rating;
+  }
+
+
+  constructor(private ionicRatingService: IonicRatingService) {
+    this.Math = Math;
+    this.parseFloat = parseFloat;
+  }
   private _rating: number;
   private onChange: any;
   private onTouched: any;
@@ -54,20 +72,6 @@ export class IonicRatingComponent implements ControlValueAccessor, OnInit {
   maxRating: number = 5;
   @Input()
   fontSize: string = '28px';
-  @Input()
-  public set rating(val: number) {
-    this._rating = val;
-    if (this.onChange) {
-      this.onChange(val);
-    }
-  }
-
-  ngOnInit(): void {
-    this.rating = this.rating || 3; //default after input`s initialization
-    for (let i = 0; i < this.maxRating; i++) {
-      this.iconsArray.push(i);
-    }
-  }
 
   public readonly eventInfo = (() => {
     const id = new Date().getTime();
@@ -76,6 +80,13 @@ export class IonicRatingComponent implements ControlValueAccessor, OnInit {
       topic,
     };
   })();
+
+  ngOnInit(): void {
+    this.rating = this.rating || 3; //default after input`s initialization
+    for (let i = 0; i < this.maxRating; i++) {
+      this.iconsArray.push(i);
+    }
+  }
 
   writeValue(obj: number): void {
     this.rating = obj;
@@ -91,17 +102,6 @@ export class IonicRatingComponent implements ControlValueAccessor, OnInit {
 
   setDisabledState?(isDisabled: boolean): void {
     this.readonly = isDisabled ? "true" : "false";
-  }
-
-
-  public get rating(): number {
-    return this._rating;
-  }
-
-
-  constructor(private ionicRatingService: IonicRatingService) {
-    this.Math = Math;
-    this.parseFloat = parseFloat;
   }
 
   changeRating(event) {
