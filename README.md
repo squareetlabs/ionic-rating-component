@@ -433,3 +433,12 @@ Run `ng test ionic-rating` to execute the unit tests via [Karma](https://karma-r
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Credits
+- [Alberto Rial Barreiro](https://github.com/alberto-rial)
+- [Jacobo Cantorna Cigarrán](https://github.com/jcancig)
+- [Desarrollo de apps para moviles](https://squareet.com/desarrollo-de-aplicaciones-para-moviles) SquareetLabs
+- [All Contributors](../../contributors)
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
