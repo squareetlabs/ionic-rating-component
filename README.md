@@ -418,6 +418,35 @@ export class SatisfactionSurveyPage  implements OnInit, OnDestroy {
      }
 }
 ```
+### Custom icons
+If you want to use icons that do not appear in ionicons, you can do so in the following way:
+```
+ion-icon {
+  &[class*="custom-"] {
+    mask-size: contain;
+    mask-position: 50% 50%;
+    mask-repeat: no-repeat;
+    background: currentColor;
+    width: 1em;
+    height: 1em;
+  }
+
+  &[class*="custom-mystar"] {
+    mask-image: url(../assets/mystar.svg);
+  }
+  &[class*="custom-yourstar"] {
+    mask-image: url(../assets/yourstar.svg);
+  }
+  &[class*="custom-otherstar"] {
+    mask-image: url(../assets/otherstar.svg);
+  }
+}
+
+<ion-icon name="custom-mystar"></ion-icon>
+<ion-icon name="custom-yourstar"></ion-icon>
+<ion-icon name="custom-otherstar"></ion-icon>
+
+```
 ## Build
 
 Run `ng build ionic-rating` to build the project. The build artifacts will be stored in the `dist/` directory.
