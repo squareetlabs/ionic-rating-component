@@ -1,45 +1,49 @@
 {
-  "name": "ionic-rating-component",
-  "description": "Highly customizable Ionic 5 component to display evaluations or a quick rating operation of something.",
-  "version": "1.2.1",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
-  },
-  "keywords": [
-    "ionic5 rating",
-    "ionic  rating",
-    "rating ionic",
-    "rating ionic5",
-    "rating angular9",
-    "ionic 5 rating",
-    "ionic5-rating",
-    "ionic-rating",
-    "ionic-rating-component",
-    "ionic5",
-    "ionic 5 rating"
-  ],
-  "author": {
-    "name": "Jacobo Cantorna Cigarrán",
-    "email": "jacobo@squareet.com.com",
-    "url": "https://squareet.com"
-  },
-  "contributors": [
-    {
-      "name": "Alberto Rial Barreiro",
-      "email": "alberto@squareet.com",
-      "url": "https://squareet.com"
+    "name": "ionic-rating-component",
+    "description": "Highly customizable ionic 6 component to display evaluations or a quick rating operation of something.",
+    "version": "1.2.2",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
+    },
+    "keywords": [
+        "ionic6 rating",
+        "ionic  rating",
+        "rating ionic",
+        "rating ionic6",
+        "rating angular9",
+        "ionic 6 rating",
+        "ionic6-rating",
+        "ionic-rating",
+        "ionic-rating-component",
+        "ionic6",
+        "ionic 6 rating"
+    ],
+    "author": {
+        "name": "Jacobo Cantorna Cigarrán",
+        "email": "jacobo@squareet.com.com",
+        "url": "https://squareet.com"
+    },
+    "contributors": [{
+            "name": "Alberto Rial Barreiro",
+            "email": "alberto@squareet.com",
+            "url": "https://squareet.com"
+        },
+        {
+            "name": "Josue Moreno",
+            "email": "josuelmm92@gmail.com",
+            "url": "https://seelight.cloud"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squareetlabs/ionic-rating-component",
+    "peerDependencies": {
+        "@angular/common": "^14.0.0",
+        "@angular/core": "^14.0.0",
+        "@angular/forms": "^14.0.0",
+        "@ionic/angular": "^5.0.0 || ^6.0.0"
+    },
+    "dependencies": {
+        "tslib": "^2.2.0"
     }
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/squareetlabs/ionic-rating-component",
-  "peerDependencies": {
-    "@angular/common": "^10.0.0",
-    "@angular/core": "^10.0.0",
-    "@angular/forms": "^10.0.0",
-    "@ionic/angular": "^5.0.0"
-  },
-  "dependencies": {
-    "tslib": "^1.10.0"
-  }
 }
